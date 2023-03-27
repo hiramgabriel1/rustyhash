@@ -12,4 +12,4 @@ app.use(cors())
 app.use(express.json());
 app.use(hashPassword)
 
-app.listen(PORT, ()=> console.log(`listening on port ${PORT}`.rainbow) )
+app.listen(PORT, ()=> console.log(`listening on port ${PORT}`.rainbow))
